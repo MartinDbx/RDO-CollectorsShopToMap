@@ -25,3 +25,7 @@ For some collections, it is not possible to determine the location of a given it
 ## Options
 
 If you store the file `rdo-collector-shop-list.json` at the same level as `main.py`, you can run the former without specifying the path.
+
+## About the HTML, CSS & JS
+
+The template used for the webpage is the free template [Checkbox V11](https://colorlib.com/wp/template/checkbox-11/) made by Rok Krivec.
