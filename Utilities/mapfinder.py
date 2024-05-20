@@ -12,7 +12,7 @@ def __dateOfToday(formattedDate: str) -> str:
     return "    \"rdr2collector.date\": \"" + formattedDate + "\",\n"
 
 
-def __collectionsToShow(collections: list):
+def __collectionsToShow(collections: list) -> str:
     """Creates the .json line to show only the selected collections."""
 
     txt = ""
