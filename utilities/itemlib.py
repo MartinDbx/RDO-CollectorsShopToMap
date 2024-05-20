@@ -1,10 +1,9 @@
-#   From: https://github.com/MartinDbx/RDO-CollectorShopToMap
-#   File: utilities/collections.py
+#   From: https://github.com/MartinDbx/RDO-CollectorsShopToMap
+#   File: Utilities/itemlib.py
 #   Author: Martin Debaisieux
-#   Date: 19 May 2024
+#   Date: 20 May 2024
 
 
-# Item and collection names following jeanropke.
 AntiqueAlcoholBottles = [
     "bottle\\", "carib_rum", "irish_whiskey", "scotch_whiskey", "tenn_whiskey",
     "londry_gin", "cognac", "oldtom_gin", "cyprus_brandy", "plymouth_gin"

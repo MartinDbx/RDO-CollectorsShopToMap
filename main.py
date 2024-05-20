@@ -1,15 +1,19 @@
-#   From: https://github.com/MartinDbx/RDO-CollectorShopToMap
+#   From: https://github.com/MartinDbx/RDO-CollectorsShopToMap
 #   File: main.py
 #   Author: Martin Debaisieux
-#   Date: 19 May 2024
+#   Date: 20 May 2024
 
 import sys
-sys.path.append("utilities")
-import generator
+sys.path.append("Utilities")
+import reader, mapfinder
+
 
 if __name__ == "__main__":
 
-    SHOPCART = generator.__generateCart(sys.argv[1])
-    UNCOLITEMS = generator.__generateUncollectedItems(sys.argv[1])
+    fileName = ("rdo-collector-shop-list.txt" if len(sys.argv) == 1
+               else sys.argv[1])
 
-    generator.makeFileJR(SHOPCART, UNCOLITEMS)
+    COLLECTIONS = reader.collectionsExtractor(fileName)
+    UNCOLLITEMS = reader.itemsExtractor(fileName)
+
+    mapfinder.makeFileJR(COLLECTIONS, UNCOLLITEMS)
