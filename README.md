@@ -28,4 +28,4 @@ If you store the file `rdo-collector-shop-list.json` at the same level as `main.
 
 ## About the CSS, HTML, JS & SCSS
 
-The template used for the webpage is the free template [Checkbox V11](https://colorlib.com/wp/template/checkbox-11/) made by Rok Krivec.
+I used the free template [Checkbox V11](https://colorlib.com/wp/template/checkbox-11/) made by Rok Krivec for the webpage.
