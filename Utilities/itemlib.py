@@ -9,6 +9,11 @@ AntiqueAlcoholBottles = [
     "londry_gin", "cognac", "oldtom_gin", "cyprus_brandy", "plymouth_gin"
 ]
 
+BirdEggs = [
+    "egg\\", "egret_egg", "eagle_egg", "vulture_egg", "spoonbill_egg",
+    "goose_egg", "duck_egg", "heron_egg", "hawk_egg", "loon_egg"
+]
+
 FamilyHeirlooms = [
     "heirlooms\\", "brush_ebony", "brush_rosewood_ng", "hairpin_jade",
     "hairpin_ivory", "hairpin_wooden", "brush_horsehair", "brush_goathair",
@@ -43,6 +48,7 @@ SuitOfWandsTarotCards = [
 
 COLLECTIONS = [
     AntiqueAlcoholBottles,
+    BirdEggs,
     FamilyHeirlooms,
     SuitOfCupsTarotCards,
     SuitOfPentaclesTarotCards,

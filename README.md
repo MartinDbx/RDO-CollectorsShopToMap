@@ -8,7 +8,7 @@ For some collections, it is not possible to determine the location of a given it
 
 - [ ] American Wild Flowers	(soon)
 - [x] Antique Alcohol Bottles
-- [ ] Bird Eggs (soon)
+- [x] Bird Eggs
 - [x] Family Heirlooms
 - [x] Suit of Cups Tarot Cards
 - [x] Suit of Pentacles Tarot Cards
