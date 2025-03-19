@@ -19,12 +19,12 @@ For some collections, it is not possible to determine the location of a given it
 ## Usage
 
 1. Open `index.html`, check the boxes corresponding to the items you want to fetch and click on 'Generate List'.  This builds the file `rdo-collector-shop-list.json` that you can download.
-2. Run `main.py` in your shell, followed by the path to the file `rdo-collector-shop-list.json`.  This builds the file `rdo-collector-map-list-date.json`.
+2. Run `main.py` in your shell, followed by the path to the file `rdo-collector-shop-list.json`. This builds the file `rdo-collector-map-list-date.json`.
 3. Import `rdo-collector-map-list-date.json` as settings into jeanropke's [Collectors Map](https://jeanropke.github.io/RDR2CollectorsMap/).
 
 ## Options
 
-If you store the file `rdo-collector-shop-list.json` at the same level as `main.py`, you can run the former without specifying the path.
+If you store the file `rdo-collector-shop-list.json` at the same level as `main.py`, you can run the latter without specifying the path.
 
 ## About the CSS, HTML, JS & SCSS
 
